@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="number" name="" id="Nom" />
+    <button onclick="show()" style="width: 5%; height: 4vh">check</button>
+    <div id="display"></div>
+
+    <a href="loop.html">loop</a><br />
+    <a href="grading.html">grading</a>
+  </body>
+</html>
+<script>
+  let num = document.getElementById("Nom");
+  function show() {
+    if (num.value % 5 == 0 && num.value % 3 == 0) {
+      console.log("PDC NID");
+      display.innerHTML = "PDC NID";
+    } else if (num.value % 3 == 0) {
+      console.log("PDC");
+      display.innerHTML = "PDC";
+    } else if (num.value % 5 == 0) {
+      console.log("NID");
+      display.innerHTML = "NID";
+    } else display.innerHTML = "PDC nor NID";
+  }
+</script>

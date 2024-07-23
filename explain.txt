@@ -1,0 +1,8 @@
+An array is a collection of items stored at contiguous memory locations.
+
+list and explain 5 array methods
+push     : Adds an item to the end of the array
+pop      : Removes the last item from the array and returns it.
+shift    : Removes the first item from the array and returns it.
+unshift  : Adds one or more items to the beginning of the array.
+splice   : Adds or removes items from the array at a specified position.
